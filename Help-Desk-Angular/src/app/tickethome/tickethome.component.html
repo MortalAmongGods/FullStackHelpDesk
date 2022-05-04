@@ -1,0 +1,30 @@
+<div class="home">
+    <div class="home-header">
+        <h1>How Can We Help?</h1>
+    </div>
+        <div class="new-form-container">
+            <button class="new-form" routerLink="new-request-form">Submit Your Request Here!</button>
+        </div>
+        <div class="login-container">
+            <button class="login" routerLink="user-login">Admin Log In</button>
+        </div> 
+    <!-- <a [routerLink]="['/newRequestForm']">Submit Your Request Here!</a> -->
+    <!-- <div class="ticket-list">
+        <ul *ngIf="tickets.length > 0; else waitingForTickets">
+            
+            <li *ngFor="let ticket of tickets">
+                <div>
+                    <p>Tickets: 
+                        <a [routerLink]="['/allTickets', ticket.ticketId]">{{ticket.subject}}</a>  
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div> -->
+        <!-- <div>
+            <ng-template #waitingForTickets>
+                <p>getting tickets...</p>
+            </ng-template>
+        </div> -->
+</div>
+
